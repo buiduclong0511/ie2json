@@ -1,0 +1,27 @@
+{
+    "name": "ie2json",
+    "version": "1.0.0",
+    "description": "Convert i18n excel file to json file",
+    "main": "./bin/index.js",
+    "repository": {
+        "url": "https://github.com/buiduclong0511/ie2json"
+    },
+    "homepage": "https://github.com/buiduclong0511/ie2json",
+    "bin": {
+        "ie2json": "./bin/index.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "i18n",
+        "excel",
+        "json"
+    ],
+    "author": "duclong0511",
+    "license": "ISC",
+    "dependencies": {
+        "sheetjs-style": "^0.15.8",
+        "yargs": "^17.7.2"
+    }
+}
